@@ -20,7 +20,9 @@ body {
   margin-bottom: 20px;
 }
 .div-img{
-  border-bottom-left-radius: 30px ;
+  /* border-bottom-left-radius: 30px ;
+  border-top-right-radius: 30px; */
+  border-radius: 30px;
 }
 
 button {
