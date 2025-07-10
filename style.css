@@ -5,7 +5,7 @@ body {
   background-image: url('https://e0.pxfuel.com/wallpapers/261/446/desktop-wallpaper-kyoto-japan-street-pagodas-temple-evening-cities-japanese-kyoto.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  color: #ffffff;
+  color: #ffffff !important;
    background-attachment: fixed;
    font-size:larger;
   
@@ -23,15 +23,16 @@ body {
   /* border-bottom-left-radius: 30px ;
   border-top-right-radius: 30px; */
   border-radius: 30px;
+  width: 300px; height: 250px;
 }
 
 button {
-    border-color: rgba(199, 242, 247, 0.4);
-    border-radius: 15px;
+    border-color: rgba(199, 242, 247, 0.4) ;
+    border-radius: 10px !important;
     padding: 8px 8px;
      color: azure;
     background-color:rgba(171, 245, 234, 0.4); 
-    font-size: 18px;
+    font-size: 18px !important;
     cursor: pointer;
     
 }
